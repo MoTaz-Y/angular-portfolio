@@ -1,23 +1,17 @@
-.container {
-  padding: 80px 0;
-}
-
-h2 {
-  color: #a49c99;
-  text-align: center;
-  margin-bottom: 40px;
-}
-.card-body {
-  text-align: center;
-}
-
 .card {
-  background-color: #3b3a39;
+  background: #2d2e32;
   color: #dbdad9;
-  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .card-title {
-  font-size: 1.5rem;
-  color: #a49c99;
+  font-size: 1.8rem;
+  color: #ff8a00;
 }
