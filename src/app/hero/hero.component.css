@@ -1,0 +1,42 @@
+.cont-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-image: url("https://media.istockphoto.com/id/1484374113/vector/template-photo-collage-for-12-pictures-vector-presentation-for-images-and-drawings-frames.jpg?s=2048x2048&w=is&k=20&c=mBiqMZNnosgC9BymfaI9Ic2TmwDK-LvvUVLSUFehOQ4=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.cont-1 h1 {
+  font-size: 4rem;
+  color: #cce6de;
+}
+
+.cont-1 p {
+  font-size: 1.5rem;
+  color: #e2f4e2;
+}
+
+.cont-1 button {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid #6c646c;
+  color: #dbdad9;
+  padding: 10px 30px;
+}
+
+.cont-1 button:hover {
+  background-color: #e9dde9;
+  border-color: #e9dde9;
+  color: #142238;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
